@@ -4,7 +4,7 @@ Digital forensics project focused on disk image recovery, file analysis, and evi
 
 ## Overview
 
-This project explores how data can be recovered and documented from a disk image in a digital forensics workflow. The goal is to understand the recovery process, maintain clean notes, and present findings in a structured way.
+This 3rd year project explores how data can be recovered and documented from a disk image in a digital forensics workflow. The goal is to understand the recovery process, maintain clean notes, and present findings in a structured way.
 
 ## Objectives
 
