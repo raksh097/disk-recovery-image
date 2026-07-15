@@ -38,6 +38,35 @@ This 3rd year project explores how data can be recovered and documented from a d
 - Documentation and reporting
 - Git and GitHub
 
+## Source Code
+
+This repository includes a Python-based recovery workflow:
+
+- `main.py` - command-line entry point
+- `scanner.py` - scans disk images for known file system signatures
+- `extractor.py` - extracts partition data from discovered offsets
+- `carver.py` - carves JPG, PNG, and PDF files by signature
+- `flag_finder.py` - searches for CTF-style flags inside an image
+- `utils/` - logging and binary helper functions
+
+Large disk images, recovered files, virtual environments, and private outputs are intentionally ignored by `.gitignore`.
+
+## How to Run
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the recovery workflow on a local disk image:
+
+```bash
+python main.py path/to/image.img
+```
+
+Recovered files are written to `output/`, which is not committed to GitHub.
+
 ## Learning Outcome
 
 Through this project, I practiced the process of treating disk data as evidence and documenting recovery steps in a professional, repeatable format.

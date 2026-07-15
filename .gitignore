@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+output/
+*.img
+*.bin
+*.jpg
+*.jpeg
+*.png
+*.pdf
+*.log
+*.tmp
+6TH SEM RESULT
