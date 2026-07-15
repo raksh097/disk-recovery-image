@@ -52,5 +52,5 @@ Through this project, I practiced the process of treating disk data as evidence 
 ## Author
 
 Rakshitha N P  
-3rd Year Cybersecurity Student  
+4th Year Cybersecurity Student  
 Portfolio: <https://raksh097.github.io/raksh097-portfolio/>
